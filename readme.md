@@ -26,7 +26,7 @@ Herramienta profesional para analistas de QA diseñada para agilizar la document
 ———————————————————————————————————————
 * * * * * * * * * * * * * * * * * * * *
 
-# Valoraclick QA Tool v2.7.0 Secure
+# QA Tool v2.7.0 Secure
 
 ![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
