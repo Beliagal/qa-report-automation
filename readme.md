@@ -4,6 +4,9 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+## UI Preview
+<img width="1366" height="702" alt="image" src="https://github.com/user-attachments/assets/ee626148-ac37-4035-ba0d-2cd62d1783fa" />
+
 Herramienta profesional para analistas de QA diseñada para agilizar la documentación de pruebas. Permite la generación de informes técnicos en PDF y backups automáticos en Google Drive mediante CSV.
 
 ## 🚀 Características
@@ -31,6 +34,9 @@ Herramienta profesional para analistas de QA diseñada para agilizar la document
 ![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+## UI Preview
+<img width="1366" height="702" alt="image" src="https://github.com/user-attachments/assets/60c940be-1baa-48ad-81b5-eb306d98e441" />
 
 A professional tool for QA Analysts designed to streamline test documentation. It enables the generation of technical PDF reports and automatic CSV backups to Google Drive.
 
