@@ -1,57 +1,81 @@
-# QA Tool v2.7.0 Secure
+# Valoraclick QA Tool 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 
-## UI Preview
+A professional desktop application designed for QA Analysts to streamline test documentation and report generation.
+
+## 🖼️ UI Preview
 <img width="1366" height="702" alt="image" src="https://github.com/user-attachments/assets/ee626148-ac37-4035-ba0d-2cd62d1783fa" />
 
-Herramienta profesional para analistas de QA diseñada para agilizar la documentación de pruebas. Permite la generación de informes técnicos en PDF y backups automáticos en Google Drive mediante CSV.
+## ✨ Key Features
+- **Instant PDF Reporting**: Generate professional reports with Pass/Fail color coding.
+- **Evidence Integration**: Easily attach screenshots directly into the technical report.
+- **Automated Backup**: Transparent CSV synchronization with Google Drive via Windows shortcuts.
+- **Session Persistence**: Local JSON storage to prevent data loss during testing sessions.
 
-## 🚀 Características
+## 🚀 Quick Start (Users)
+1. Go to the [Latest Release](https://github.com/Beliagal/qa-report-automation/releases).
+2. Download `QA_Tool_v2.7.exe`.
+3. Run the executable and start documenting. No installation required!
 
-- **Generación de PDF**: Reportes detallados con metadatos, pasos de ejecución y estados (Pass/Fail) con colores.
-- **Soporte de Evidencias**: Adjunta capturas de pantalla directamente en el informe PDF.
-- **Backup en la Nube**: Guardado automático de CSV en Google Drive mediante acceso directo de Windows (`Informes.lnk`).
-- **Persistencia de Sesión**: Autoguardado en JSON para evitar pérdida de datos por cierres inesperados.
-- **Interfaz Moderna**: Construida con `CustomTkinter` para una experiencia de usuario fluida y profesional.
+## 🔧 Developer Setup
+To run the source code or contribute:
 
-## 🛠️ Requisitos Técnicos
+1. **Clone the repository**:
+   `git clone https://github.com/Beliagal/qa-report-automation.git`
 
-- **Python 3.13.x**
-- **Google Drive for Desktop** (para la sincronización de reportes)
-- **Dependencias**:
-  ```bash
-  pip install customtkinter fpdf2 pywin32
+2. **Setup virtual environment**:
+   `python -m venv .venv`
+   `source .venv/bin/activate`  # On Windows: .venv\Scripts\activate
 
-* * * * * * * * * * * * * * * * * * * *
-———————————————————————————————————————
-* * * * * * * * * * * * * * * * * * * *
+3. **Install dependencies**:
+   `pip install -r requirements.txt`
 
-# QA Tool v2.7.0 Secure
+4. **Run the app**:
+   `python main.py`
 
-![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+## 🛠️ Tech Stack
+- **GUI**: CustomTkinter (Modern & Dark UI).
+- **PDF Engine**: ReportLab.
+- **Binary Build**: PyInstaller.
+- **Testing**: Pytest.
 
-## UI Preview
-<img width="1366" height="702" alt="image" src="https://github.com/user-attachments/assets/60c940be-1baa-48ad-81b5-eb306d98e441" />
+---
 
-A professional tool for QA Analysts designed to streamline test documentation. It enables the generation of technical PDF reports and automatic CSV backups to Google Drive.
+# Valoraclick QA Tool 🚀
 
-## 🚀 Features
+Herramienta profesional de escritorio diseñada para analistas de QA, con el fin de agilizar la documentación de pruebas y la generación de informes.
 
-- **PDF Report Generation**: Detailed reports including metadata, execution steps, and color-coded statuses (Pass/Fail).
-- **Evidence Support**: Attach and embed screenshots directly into the PDF report.
-- **Cloud Backup**: Automated CSV export to Google Drive via Windows shortcut integration (`Informes.lnk`).
-- **Session Persistence**: JSON-based autosave to prevent data loss from unexpected application closures.
-- **Modern UI**: Built with `CustomTkinter` for a smooth and professional user experience.
+## 🖼️ Vista Previa
+<img width="1366" height="702" alt="image" src="https://github.com/user-attachments/assets/ee626148-ac37-4035-ba0d-2cd62d1783fa" />
 
-## 🛠️ Technical Requirements
+## ✨ Funcionalidades Clave
+- **Informes PDF Instantáneos**: Generación de reportes profesionales con código de colores (Pass/Fail).
+- **Gestión de Evidencias**: Integración sencilla de capturas de pantalla directamente en el informe.
+- **Backup Automatizado**: Sincronización transparente de CSV con Google Drive mediante accesos directos de Windows.
+- **Persistencia de Sesión**: Almacenamiento local en JSON para evitar la pérdida de datos.
 
-- **Python 3.13.x**
-- **Google Drive for Desktop** (required for report synchronization)
-- **Dependencies**:
-  ```bash
-  pip install customtkinter fpdf2 pywin32
+## 🚀 Inicio Rápido (Usuarios)
+1. Ve a la sección de [Última Release](https://github.com/Beliagal/qa-report-automation/releases).
+2. Descarga el archivo `QA_Tool_v2.7.exe`.
+3. Ejecuta la aplicación y comienza a documentar. ¡Sin necesidad de instalación!
+
+## 🔧 Configuración para Desarrolladores
+Si deseas ejecutar el código fuente o contribuir:
+
+1. **Clonar el repositorio**:
+   `git clone https://github.com/Beliagal/qa-report-automation.git`
+
+2. **Configurar el entorno virtual**:
+   `.venv\Scripts\activate`
+
+3. **Instalar dependencias**:
+   `pip install -r requirements.txt`
+
+## 🛠️ Tecnologías Utilizadas
+- **Interfaz**: CustomTkinter.
+- **Motor de PDF**: ReportLab.
+- **Compilación**: PyInstaller.
+- **Pruebas**: Pytest.
